@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./code.test"
+    "test": "node ./math.test"
   },
   "repository": {
     "type": "git",
