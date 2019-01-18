@@ -12,6 +12,8 @@ function it(text, callback) {
   }
 }
 
+const test = it;
+
 function expect(actual) {
   return {
     toBe(expected) {
@@ -25,5 +27,6 @@ function expect(actual) {
 module.exports = {
   describe,
   it,
+  test,
   expect
 };
